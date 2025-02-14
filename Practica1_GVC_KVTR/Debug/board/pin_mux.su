@@ -1,0 +1,5 @@
+C:\Users\gabit\OneDrive\Documentos\mcu\Practica1_GVC_KVTR\device\periph/PERI_SYSCON.h:3832:24:Chip_GetVersion	16	static
+C:\Users\gabit\OneDrive\Documentos\mcu\Practica1_GVC_KVTR\drivers/fsl_clock.h:983:20:CLOCK_EnableClock	24	static
+C:\Users\gabit\OneDrive\Documentos\mcu\Practica1_GVC_KVTR\drivers/fsl_iocon.h:182:22:IOCON_PinMuxSet	24	static
+../board/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:74:6:BOARD_InitPins	48	static

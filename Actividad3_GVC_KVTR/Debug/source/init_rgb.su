@@ -1,0 +1,9 @@
+../source/init_rgb.c:18:6:vfnInitRGB	16	static
+../source/init_rgb.c:39:6:vfnRedOn	4	static
+../source/init_rgb.c:44:6:vfnGreenOn	4	static
+../source/init_rgb.c:49:6:vfnBlueOn	4	static
+../source/init_rgb.c:53:6:vfnPinkOn	4	static
+../source/init_rgb.c:59:6:vfnYellowOn	4	static
+../source/init_rgb.c:65:6:vfnLightBlueOn	4	static
+../source/init_rgb.c:71:6:vfnWhiteOn	4	static
+../source/init_rgb.c:76:6:vfnBlackOn	4	static

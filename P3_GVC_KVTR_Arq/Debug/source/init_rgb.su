@@ -1,0 +1,3 @@
+../source/init_rgb.c:18:6:vfnInitRGB	16	static
+../source/init_rgb.c:40:6:vfnRedOn	4	static
+../source/init_rgb.c:46:6:vfnGreenOn	4	static

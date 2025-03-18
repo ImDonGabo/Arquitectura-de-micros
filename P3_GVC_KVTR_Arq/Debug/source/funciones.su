@@ -1,0 +1,16 @@
+../source/funciones.c:18:10:bfnToUpperCase	16	static
+../source/funciones.c:28:10:bfnToLowerCase	16	static
+../source/funciones.c:39:10:bfnIsPrint	16	static
+../source/funciones.c:50:10:bfnIsHex	16	static
+../source/funciones.c:61:11:wfnStrLen	24	static
+../source/funciones.c:71:10:bfnShiftLeft	16	static
+../source/funciones.c:81:10:bfnShiftRight	16	static
+../source/funciones.c:91:7:vfnMemCpy	32	static
+../source/funciones.c:99:7:vfnMemSet	24	static
+../source/funciones.c:107:10:bfnFindMax	24	static
+../source/funciones.c:119:10:bfnFindMin	24	static
+../source/funciones.c:137:10:bfnStrCmp	32	static
+../source/funciones.c:149:11:bpfnByteAddress	24	static
+../source/funciones.c:161:11:wfnSum	24	static
+../source/funciones.c:171:10:bfnAvg	16	static
+../source/funciones.c:181:7:vfnReverseArray	24	static

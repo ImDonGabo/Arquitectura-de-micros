@@ -300,7 +300,7 @@
 								<option id="com.crt.advproject.link.gcc.lto.118875673" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.link.gcc.lto"/>
 								<option id="com.crt.advproject.link.gcc.lto.optmization.level.1111031888" name="Link-time optimization level" superClass="com.crt.advproject.link.gcc.lto.optmization.level"/>
 								<option id="com.crt.advproject.link.manage.1181662883" name="Manage linker script" superClass="com.crt.advproject.link.manage" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.script.2079139323" name="Linker script" superClass="com.crt.advproject.link.script" value="&quot;P3_GVC_KVTR_Arq_Debug.ld&quot;" valueType="string"/>
+								<option id="com.crt.advproject.link.script.2079139323" name="Linker script" superClass="com.crt.advproject.link.script" value="P3_GVC_KVTR_Arq_Debug.ld" valueType="string"/>
 								<option id="com.crt.advproject.link.scriptdir.574290558" name="Script path" superClass="com.crt.advproject.link.scriptdir"/>
 								<option id="com.crt.advproject.link.crpenable.1889123203" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable"/>
 								<option id="com.crt.advproject.link.flashconfigenable.1350954718" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.flashconfigenable" value="true" valueType="boolean"/>
@@ -640,7 +640,7 @@
 								<option id="com.crt.advproject.link.gcc.lto.optmization.level.9908485" name="Link-time optimization level" superClass="com.crt.advproject.link.gcc.lto.optmization.level"/>
 								<option id="com.crt.advproject.link.fpu.323946203" name="Floating point" superClass="com.crt.advproject.link.fpu" value="com.crt.advproject.link.fpu.fpv5sp.hard" valueType="enumerated"/>
 								<option id="com.crt.advproject.link.manage.1922725916" name="Manage linker script" superClass="com.crt.advproject.link.manage" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.script.794441204" name="Linker script" superClass="com.crt.advproject.link.script" value="&quot;P3_GVC_KVTR_Arq_Release.ld&quot;" valueType="string"/>
+								<option id="com.crt.advproject.link.script.794441204" name="Linker script" superClass="com.crt.advproject.link.script" value="P3_GVC_KVTR_Arq_Release.ld" valueType="string"/>
 								<option id="com.crt.advproject.link.scriptdir.1930877070" name="Script path" superClass="com.crt.advproject.link.scriptdir"/>
 								<option id="com.crt.advproject.link.crpenable.62682373" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable"/>
 								<option id="com.crt.advproject.link.flashconfigenable.1165671313" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.flashconfigenable" value="true" valueType="boolean"/>

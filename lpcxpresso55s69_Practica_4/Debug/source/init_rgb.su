@@ -1,0 +1,8 @@
+../source/init_rgb.c:15:6:vfnInitRGB	16	static
+../source/init_rgb.c:42:6:vfn2Leds	4	static
+../source/init_rgb.c:48:6:vfn8BitsCounter	4	static
+../source/init_rgb.c:55:6:vfnCorrimientoIzq	4	static
+../source/init_rgb.c:69:6:vfnCorrimientoDer	4	static
+../source/init_rgb.c:83:6:vfnJohnsonLED	4	static
+../source/init_rgb.c:95:6:vfnDualWalkWCrash	4	static
+../source/init_rgb.c:110:6:vfnDualWalk	4	static

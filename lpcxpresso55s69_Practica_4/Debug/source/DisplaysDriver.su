@@ -1,0 +1,3 @@
+../source/DisplaysDriver.c:91:6:vfnInitPortsDisplay	4	static
+../source/DisplaysDriver.c:96:6:vfnDisplayCounter	4	static
+../source/DisplaysDriver.c:109:6:vfnDisplayInitials	4	static

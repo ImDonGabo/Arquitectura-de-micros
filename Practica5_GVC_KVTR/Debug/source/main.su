@@ -1,0 +1,5 @@
+../source/main.c:53:5:main	16	static
+../source/main.c:137:6:updateClock	4	static
+../source/main.c:152:6:updateStopwatch	4	static
+../source/main.c:165:6:updateTimer	4	static
+../source/main.c:180:6:vfnTimerAssignAndInit	8	static

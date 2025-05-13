@@ -1,0 +1,4 @@
+../source/utick_timer.c:41:6:vfnUTICKinit	4	static
+../source/utick_timer.c:64:6:UTICK0_IRQHandler	8	static
+../source/utick_timer.c:79:9:bfnUTICKGetStatus	4	static
+../source/utick_timer.c:92:6:vfnUTICKClearStatus	4	static

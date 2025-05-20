@@ -1,0 +1,3 @@
+../source/gpio_matrix.c:10:6:vfnInitGpios	16	static
+../source/gpio_matrix.c:49:6:vfnSetRow	16	static
+../source/gpio_matrix.c:55:6:vfnScanColumn	16	static

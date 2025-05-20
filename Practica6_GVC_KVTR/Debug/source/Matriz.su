@@ -1,0 +1,3 @@
+../source/matriz.c:40:6:vfnInitGpios	16	static
+../source/matriz.c:82:6:vfnColumns_Driver	4	static
+../source/matriz.c:96:6:vfnMatrix_Value	4	static

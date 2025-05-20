@@ -1,0 +1,101 @@
+#ifndef DISPLAY_H_
+#define DISPLAY_H_
+
+#include "board.h"
+
+// Definiciones Generales
+#define REINICIAR       0       // Valor para resetear
+#define COLUMNA1		0
+#define COLUMNA2 		1
+#define COLUMNA3		2
+#define COLUMNA4		3
+#define COLUMNA5		4
+#define COLUMNA6		5
+#define COLUMNA7		6
+#define COLUMNA8		7
+
+// Definiciones de Puertos
+#define PORT1		1
+#define ALL_PORT1	0xFF
+
+// Pines de Filas
+#define ROW0_PIN  (0)
+#define ROW1_PIN  (1)
+#define ROW2_PIN  (2)
+#define ROW3_PIN  (3)
+#define ROW4_PIN  (4)
+#define ROW5_PIN  (5)
+#define ROW6_PIN  (6)
+#define ROW7_PIN  (7)
+
+// Pines de Columnas
+#define COL0_PIN  (8)
+#define COL1_PIN  (10)
+#define COL2_PIN  (20)
+#define COL3_PIN  (21)
+#define COL4_PIN  (24)
+#define COL5_PIN  (26)
+#define COL6_PIN  (27)
+#define COL7_PIN  (31)
+
+#define ROW0  (1 << ROW0_PIN)
+#define ROW1  (1 << ROW1_PIN)
+#define ROW2  (1 << ROW2_PIN)
+#define ROW3  (1 << ROW3_PIN)
+#define ROW4  (1 << ROW4_PIN)
+#define ROW5  (1 << ROW5_PIN)
+#define ROW6  (1 << ROW6_PIN)
+#define ROW7  (1 << ROW7_PIN)
+
+#define COL0  (1 << COL0_PIN)
+#define COL1  (1 << COL1_PIN)
+#define COL2  (1 << COL2_PIN)
+#define COL3  (1 << COL3_PIN)
+#define COL4  (1 << COL4_PIN)
+#define COL5  (1 << COL5_PIN)
+#define COL6  (1 << COL6_PIN)
+#define COL7  (1 << COL7_PIN)
+
+extern uint32_t wMatrixCols [];
+
+static uint8_t matrixHexDigits[16][8] = {
+    // 0
+    {0b00111100, 0b01100110, 0b11000011, 0b11000011, 0b11000011, 0b11000011, 0b01100110, 0b00111100},
+    // 1
+    {0b00011000, 0b00111000, 0b00011000, 0b00011000, 0b00011000, 0b00011000, 0b00111100, 0b00111100},
+    // 2
+    {0b00111100, 0b01100110, 0b00000110, 0b00001100, 0b00110000, 0b01100000, 0b01111110, 0b01111110},
+    // 3
+    {0b00111100, 0b01100110, 0b00000110, 0b00011100, 0b00000110, 0b01100110, 0b01111110, 0b00111100},
+    // 4
+    {0b00001100, 0b00011100, 0b00111100, 0b01101100, 0b11111110, 0b00001100, 0b00001100, 0b00011110},
+    // 5
+    {0b01111110, 0b01100000, 0b01100000, 0b01111100, 0b00000110, 0b00000110, 0b01100110, 0b00111100},
+    // 6
+    {0b00111100, 0b01100110, 0b01100000, 0b01111100, 0b01100110, 0b01100110, 0b01111110, 0b00111100},
+    // 7
+    {0b01111110, 0b01100110, 0b00000110, 0b00001100, 0b00011000, 0b00011000, 0b00011000, 0b00011000},
+    // 8
+    {0b00111100, 0b01100110, 0b01100110, 0b00111100, 0b01100110, 0b01100110, 0b01100110, 0b00111100},
+    // 9
+    {0b00111100, 0b01000110, 0b01000110, 0b01000110, 0b00111110, 0b00000110, 0b00000110, 0b01111100},
+    // A
+    {0b00111100, 0b01100110, 0b01100110, 0b01111110, 0b01100110, 0b01100110, 0b01100110, 0b01100110},
+    // B
+    {0b01111100, 0b01100110, 0b01100110, 0b01111100, 0b01100110, 0b01100110, 0b01111100, 0b01111100},
+    // C
+    {0b00111100, 0b01100110, 0b01100000, 0b01100000, 0b01100000, 0b01100000, 0b01100110, 0b00111100},
+    // D
+    {0b01111000, 0b01101100, 0b01100110, 0b01100110, 0b01100110, 0b01100110, 0b01101100, 0b01111000},
+    // E
+    {0b01111110, 0b01100000, 0b01100000, 0b01111100, 0b01100000, 0b01100000, 0b01100000, 0b01111110},
+    // F
+    {0b01111110, 0b01100000, 0b01100000, 0b01111100, 0b01100000, 0b01100000, 0b01100000, 0b01100000}
+};
+
+// Prototipos de Funciones
+void vfnInitGpios(void);
+void vfnColumns_Driver(void);
+void vfnMatrix_Value(void);
+
+#endif /* DISPLAY_H_ */

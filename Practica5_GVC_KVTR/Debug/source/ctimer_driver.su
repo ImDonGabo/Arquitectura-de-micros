@@ -1,0 +1,4 @@
+../source/ctimer_driver.c:27:6:vfnInitCTimerAndPins	16	static
+../source/ctimer_driver.c:69:6:vfnSetUpPWM_Freq	16	static
+../source/ctimer_driver.c:86:6:vfnUpdate_PWM	16	static
+../source/ctimer_driver.c:93:6:CTIMER_StartTimer	4	static

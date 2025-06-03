@@ -1,0 +1,7 @@
+../source/SwTimers.c:65:6:vfnSwTimers_Init	8	static
+../source/SwTimers.c:73:6:vfnSwTimers_Task	16	static
+../source/SwTimers.c:99:9:bfnSwTimers_RequestTimer	16	static
+../source/SwTimers.c:128:6:vfnSwTimers_StartTimer	16	static
+../source/SwTimers.c:140:9:bfnSwTimers_GetStatus	24	static
+../source/SwTimers.c:157:13:vfnSwTimer_InitHwTimer	8	static
+../source/SwTimers.c:163:16:bfnSwTimer_GetHwTimerStatus	16	static

@@ -1,0 +1,5 @@
+../source/gpio4Displays.c:76:6:vfnInitGpios	16	static
+../source/gpio4Displays.c:106:6:vfnColumns_Driver	16	static
+../source/gpio4Displays.c:132:6:vfnDisplay_Value	16	static
+../source/gpio4Displays.c:151:6:vfnToggleDotPoint	16	static
+../source/gpio4Displays.c:159:6:vfnDisplayRPM	16	static

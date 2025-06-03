@@ -1,0 +1,8 @@
+../source/gpio_driver.c:33:6:vfnGpioInitRGB	16	static
+../source/gpio_driver.c:62:6:vfnTurnOff	4	static
+../source/gpio_driver.c:73:6:vfnRED_Toggle	4	static
+../source/gpio_driver.c:86:6:vfnGREEN_Toggle	4	static
+../source/gpio_driver.c:99:6:vfnBLUE_Toggle	4	static
+../source/gpio_driver.c:112:6:vfnRED_On	4	static
+../source/gpio_driver.c:129:6:vfnGREEN_On	4	static
+../source/gpio_driver.c:146:6:vfnBLUE_On	4	static

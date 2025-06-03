@@ -1,0 +1,2 @@
+../source/sensor_gpio.c:9:6:vfnInitHallSensor	16	static
+../source/sensor_gpio.c:23:9:wfnReadHallSensorState	16	static

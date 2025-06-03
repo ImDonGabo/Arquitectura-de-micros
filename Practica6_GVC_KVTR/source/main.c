@@ -36,6 +36,27 @@ uint16_t bChange;
 uint8_t counter = 0;
 extern  uint8_t bMatrixRows[16][8];
 
+/*PID variables*/
+// Variables para PID
+float setpoint = 100.0;      // Ej: velocidad deseada (ajustable)
+float medida = 0.0;          // Velocidad actual del encoder
+
+float error = 0.0;
+float errorAnterior = 0.0;
+float integral = 0.0;
+float salidaPID = 0.0;
+
+// Parámetros del controlador PID
+float Kp = 1.532e-5;
+float Ki = 5e-11;
+float Ts = 0.01;  // 10 ms (ajustar según frecuencia real de muestreo)
+
+// PWM
+uint8_t pwmSalida = 0;
+uint8_t pwmMax = 100;
+uint8_t pwmMin = 0;
+
+
 int main(void)
 {
 	vfnInitGpios();
